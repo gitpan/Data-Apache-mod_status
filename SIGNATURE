@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 c2fcb51822c26c4ef23ad7140782829b5c414ab6 Build.PL
+SHA1 9eed144360bc78ee292a7438f3141735194e2a05 Changes
+SHA1 3f6d788a54d7b56d6b6abf9703ed6ecd30953e0d MANIFEST
+SHA1 a13af175880dfc07c71b268e298b5373e4afc267 META.yml
+SHA1 c0e4d5d289a989b084e629695ac5b9c8ed0a6811 Makefile.PL
+SHA1 da11ea7224073bf7555986e1f3e99bfa1c93aae1 README
+SHA1 98d824db7265a2bee8996a0bae63b7cf38bfad9e examples/rrd/create
+SHA1 3d430d72689836a4ccfdc14b9415cf7f7d818096 examples/rrd/graph
+SHA1 2865b2f062f9bb0c111b1d6e461ce3ad72e6c284 examples/rrd/update
+SHA1 e305bb2f585249bd043a3ead46929f232bedb29c lib/Data/Apache/mod_status.pm
+SHA1 b1551889e9343f917ce3187949a8df5868900443 lib/Data/Apache/mod_status/2XML.pm
+SHA1 2560db9fafac979912ac38e30dbbc3f26a8b407c lib/Data/Apache/mod_status/Info.pm
+SHA1 037546306def4816ae4a7ff151cad3967959b574 lib/Data/Apache/mod_status/Workers.pm
+SHA1 a4e22b70f887ff24472c8ec9dcf3125a45bca72e script/mod_status-info
+SHA1 0b55f3e549869e8e6c2de804161f5550b487666c t/01_Data-Apache-mod_status.t
+SHA1 e73450fe685ea6e6bb23438bf0696a05577a2a2b t/data/server-status.html
+SHA1 20cc8a4f91ba5ee20f230301ed3b2ba9e82dca51 xslt/mod_status2xml.xslt
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkki73IACgkQC0OgUPgL2Sem6QCeOaI60tQapMb6XT2s631fQuEc
+wvAAoIIzpYO7voMhmPjEBETtNgsVlrQz
+=G4aD
+-----END PGP SIGNATURE-----

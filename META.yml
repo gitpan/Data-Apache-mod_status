@@ -1,0 +1,44 @@
+---
+name: Data-Apache-mod_status
+version: 0.01
+author:
+  - 'Jozef Kutej <jkutej@cpan.org>'
+abstract: get values from Apache mod_status page
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp::Clan: 0
+  Data::Dumper: 0
+  DateTime::Format::Strptime: 0
+  Getopt::Long: 0
+  IPC::Run3: 0
+  LWP::UserAgent: 0
+  Moose: 0
+  Moose::Util::TypeConstraints: 0
+  Pod::Usage: 0
+  XML::LibXML: 0
+  XML::LibXSLT: 0
+build_requires:
+  File::Slurp: 0
+  File::Which: 0
+  Test::Differences: 0
+  Test::Exception: 0
+  Test::More: 0
+provides:
+  Data::Apache::mod_status:
+    file: lib/Data/Apache/mod_status.pm
+    version: 0.01
+  Data::Apache::mod_status::2XML:
+    file: lib/Data/Apache/mod_status/2XML.pm
+    version: 0.01
+  Data::Apache::mod_status::Info:
+    file: lib/Data/Apache/mod_status/Info.pm
+    version: 0.01
+  Data::Apache::mod_status::Workers:
+    file: lib/Data/Apache/mod_status/Workers.pm
+    version: 0.01
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
